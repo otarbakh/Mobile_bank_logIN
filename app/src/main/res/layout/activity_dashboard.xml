@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dashboard">
+
+
+    <TextView
+        android:id="@+id/Tv_hello"
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="84dp"
+        android:text="Hello Josep"
+        android:textColor="@color/num.Colour"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/Tv_goodMorning"
+        android:layout_width="228dp"
+        android:layout_height="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="117dp"
+        android:text="Good morning, remember to save today"
+        android:textColor="@color/num.Colour"
+        android:textSize="13dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/currency_widget"
+        android:layout_width="382dp"
+        android:layout_height="180dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="159dp"
+        android:background="@color/blue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Tv_TotalSavinig"
+        android:layout_width="96dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="179dp"
+        android:text="Total Savings"
+        android:textColor="@color/totalS.Colour"
+        android:textSize="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Tv_currency"
+        android:layout_width="189dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="221dp"
+        android:text="N50,000.10"
+        android:textColor="@color/totalS.Colour"
+        android:textSize="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/Bt_addMoney"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="362dp"
+        android:backgroundTint="@color/addMoney.Colour"
+        android:drawableLeft="@drawable/ic_vector"
+        android:text="Add money"
+        android:textColor="@color/addd.Colour"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/Bt_withdraw"
+        android:layout_width="180dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="218dp"
+        android:layout_marginTop="362dp"
+        android:backgroundTint="@color/orange.Colour"
+        android:drawableLeft="@drawable/ic_money__2__1"
+        android:text="Withdraw"
+        android:textColor="@color/addd.Colour"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/Tv_getYourMoney"
+        android:layout_width="255dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="462dp"
+        android:text="Get your money working for you"
+        android:textColor="@color/num.Colour"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Bt_emergency"
+        android:layout_width="378dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="504dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_wallet"
+        android:drawableTint="@color/blue"
+        android:text="Save for an emergency"
+        android:textColor="@color/num.Colour"
+        android:textColorHint="@color/pass.Colour"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Bt_invest"
+        android:layout_width="378dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="590dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_piechart"
+        android:drawableTint="@color/blue"
+        android:text="Invest your money"
+        android:textColor="@color/num.Colour"
+        android:textColorHint="@color/pass.Colour"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/Tv_earnMoney"
+        android:layout_width="209dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="692dp"
+        android:text="Ways to earn more money"
+        android:textColor="@color/num.Colour"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/Bt_invite"
+        android:layout_width="378dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="734dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/ic_savings"
+        android:drawableTint="@color/blue"
+        android:text="Invite your friends and get a bonus"
+        android:textColor="@color/num.Colour"
+        android:textColorHint="@color/pass.Colour"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Im_dollar"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="251dp"
+        android:layout_marginTop="116dp"
+        android:src="@drawable/ic_moneybag"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

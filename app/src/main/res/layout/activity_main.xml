@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Tv_signin"
+        android:layout_width="248dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="170dp"
+        android:text="Sing into your Account"
+        android:textColor="@color/blue"
+        android:textSize="35sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Tv_bank_acc"
+        android:layout_width="293dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="274dp"
+        android:text="Log into your Bank account"
+        android:textColor="@color/log.Colour"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Tv_phoneN"
+        android:layout_width="101dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="368dp"
+        android:text="Phone Number"
+        android:textColor="@color/log.Colour"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Et_phoneNum"
+        android:layout_width="382dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="389dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="  +995 557  11 11 11"
+        android:textColor="@color/stroke.Colour"
+        android:textColorHint="@color/pass.Colour"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Tv_password"
+        android:layout_width="66dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="461dp"
+        android:text="Password"
+        android:textColor="@color/log.Colour"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/Et_PassInput"
+        android:layout_width="382dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="482dp"
+        android:background="@drawable/rounded_corner"
+        android:hint="  **********"
+        android:textColor="@color/stroke.Colour"
+        android:textColorHint="@color/pass.Colour"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/Tv_forgotten"
+        android:layout_width="258dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="557dp"
+        android:text="Have you forgotten your password?, click here to recover it"
+        android:textColor="@color/fill.Colour"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Bt_Login"
+        android:layout_width="258dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="751dp"
+        android:backgroundTint="@color/navyBlue.Colour"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Tv_Bank_acc_f"
+        android:layout_width="331dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="841dp"
+        android:text="Do you not have a BankMe account? Sign up here"
+        android:textColor="@color/num.Colour"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
